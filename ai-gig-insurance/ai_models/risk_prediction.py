@@ -42,7 +42,7 @@ if __name__ == "__main__":
         (20,   80, 30, "Clear Day, Bangalore"),
         (250, 300, 85, "Flood conditions, Delhi"),
     ]
-    print("\n📊 Demo Predictions:")
+    print("\n📊📊 Demo Predictions:")
     print(f"{'Scenario':<40} {'Risk Score':<12} {'Level'}")
     print("-" * 65)
     for rain, aqi, traffic, label in test_cases:
