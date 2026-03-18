@@ -77,6 +77,8 @@ StillPaid introduces a weekly parametric insurance model tailored for gig worker
 | Premium  | ₹70/week      | ₹700     |
 
 👉 Premiums dynamically adjust based on risk levels.
+
+
 👉 Actual payout may vary based on disruption severity and selected coverage plan.
 
 ### 🔹 Adaptive Parametric Payout
