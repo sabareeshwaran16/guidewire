@@ -244,11 +244,10 @@ ai-gig-insurance/
 │
 ├── .env.example
 ├── README.md
-
-
+```
 🎥 Demo Video
 
-👉 https://youtu.be/N2h9UqoC-08?si=k-VgobSz1OQqhjgy
+👉 [Watch Demo Video](https://youtu.be/N2h9UqoC-08?si=k-VgobSz1OQqhjgy)
 
 👥 Team Crashers
 
@@ -257,6 +256,8 @@ Dhinesh B
 Arun Kumar P
 
 Sabareeshwaran B
+
+Asvitha M S
 
 🏁 Final Note
 
