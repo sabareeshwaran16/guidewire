@@ -1,255 +1,239 @@
-🚀 StillPaid
-AI-Powered Parametric Insurance for Gig Workers
+# 🚀 StillPaid  
+### AI-Powered Parametric Insurance for Gig Workers  
 
-“Ensuring gig workers are still paid, even when they cannot work.”
+> **“Ensuring gig workers are still paid, even when they cannot work.”**
 
+---
 
-
-
-
-
-
-
-📌 Overview
+## 📌 Overview
 
 StillPaid is an AI-powered parametric insurance platform designed to protect gig delivery workers from income loss caused by external disruptions such as extreme weather, pollution, and city restrictions.
 
-Unlike traditional insurance, StillPaid uses event-based triggers to automatically initiate claims and process payouts—eliminating manual verification and delays.
+Unlike traditional insurance, StillPaid uses event-based triggers to automatically initiate claims and process payouts, eliminating manual verification and delays.
 
-❗ Problem Statement
+---
+
+## ❗ Problem Statement
 
 Gig delivery partners working with platforms like Swiggy and Zomato depend entirely on daily earnings.
 
 However, external disruptions such as:
 
-🌧 Heavy Rain
-
-🌡 Extreme Heat
-
-🌫 Severe Pollution
-
-🚫 Curfews / Restrictions
+- 🌧 Heavy Rain  
+- 🌡 Extreme Heat  
+- 🌫 Severe Pollution  
+- 🚫 Curfews / Restrictions  
 
 can reduce their working hours and lead to 20–30% income loss.
 
 Currently, there is no system that protects this lost income.
 
-👤 Target Persona
+---
 
-Food Delivery Partners
+## 👤 Target Persona — Food Delivery Partners
 
-Attribute	Value
-Platforms	Swiggy, Zomato
-Avg Daily Earnings	₹700 – ₹1200
-Work Duration	8–10 hrs/day
-Income Dependency	Fully dependent
-💡 Solution
+| Attribute            | Value               |
+|---------------------|--------------------|
+| Platforms           | Swiggy, Zomato     |
+| Avg Daily Earnings  | ₹700 – ₹1200       |
+| Work Duration       | 8–10 hours/day     |
+| Income Dependency   | Fully dependent    |
+
+---
+
+## 💡 Solution
 
 StillPaid introduces a weekly parametric insurance model tailored for gig workers.
 
-✔ Weekly subscription-based coverage
-✔ Automatic claim triggering
-✔ Instant payouts
-✔ AI-driven risk assessment
-✔ Zero manual intervention
+- Weekly subscription-based coverage  
+- Automatic claim triggering  
+- Instant payouts  
+- AI-driven risk assessment  
+- Zero manual intervention  
 
-⚙️ How It Works
-📊 Parametric Triggers
-Disruption	Condition	Base Payout
-🌧 Rain	> 50mm/day	₹300
-🌡 Heat	> 42°C	₹250
-🌫 AQI	> 350	₹200
-🚫 Curfew	Govt restriction	₹400
+---
 
-👉 Actual payout may vary based on disruption severity and selected coverage plan.
+## ⚙️ How It Works
 
-💰 Weekly Pricing Model
-Plan	Weekly Premium	Coverage
-Basic	₹30/week	₹300
-Standard	₹50/week	₹500
-Premium	₹70/week	₹700
+1. Worker registers and activates coverage  
+2. System evaluates risk based on location  
+3. Weekly premium is generated  
+4. External data is continuously monitored  
+5. Disruption event is detected  
+6. Eligible workers are identified  
+7. Claim is triggered automatically  
+8. Payout is processed instantly  
+
+---
+
+## 📊 Parametric Triggers
+
+| Disruption | Condition         | Base Payout |
+|------------|------------------|-------------|
+| 🌧 Rain    | > 50mm/day       | ₹300        |
+| 🌡 Heat    | > 42°C           | ₹250        |
+| 🌫 AQI     | > 350            | ₹200        |
+| 🚫 Curfew  | Govt restriction | ₹400        |
+
+👉 *Actual payout may vary based on disruption severity and selected coverage plan.*
+
+---
+
+## 💰 Weekly Pricing Model
+
+| Plan     | Weekly Premium | Coverage |
+|----------|---------------|----------|
+| Basic    | ₹30/week      | ₹300     |
+| Standard | ₹50/week      | ₹500     |
+| Premium  | ₹70/week      | ₹700     |
 
 👉 Premiums dynamically adjust based on risk levels.
 
-🔹 Adaptive Parametric Payout
+---
+
+## 🔹 Adaptive Parametric Payout
 
 Instead of fixed payouts, StillPaid uses dynamic payout tiers based on disruption severity.
 
-Example — Premium Plan (Coverage: ₹700):
+**Example — Premium Plan (Coverage: ₹700):**
 
-Low Impact → ₹300
+- Low Impact → ₹300  
+- Medium Impact → ₹500  
+- High Impact → ₹700  
 
-Medium Impact → ₹500
+This ensures fair compensation while maintaining parametric logic.
 
-High Impact → ₹700
+---
 
-👉 Ensures fairness while maintaining parametric logic.
-
-🔐 Verification & Fraud Prevention
+## 🔐 Verification & Fraud Prevention
 
 StillPaid uses a data-driven verification pipeline.
 
-✔ Verification
+### Verification
 
-External APIs validate disruption events
+- External APIs validate disruption events  
+- Events mapped to geographic zones  
+- Workers filtered based on location and time  
 
-Events mapped to geographic zones
+### Fraud Control
 
-Workers filtered based on location & time
+- One payout per trigger  
+- Location consistency checks  
+- Time-window validation  
 
-✔ Fraud Control
+The system is fully automated, transparent, and fraud-resistant.
 
-One payout per trigger
+---
 
-Location consistency checks
+## 🤖 WhatsApp-Based Worker Verification
 
-Time-window validation
+To simplify onboarding:
 
-👉 Fully automated, transparent, and fraud-resistant.
+1. Worker registers on StillPaid  
+2. Connects WhatsApp account  
+3. Chatbot collects:
+   - Delivery platform  
+   - Working hours  
+   - Location  
+4. Profile is verified before activation  
 
-🤖 WhatsApp-Based Worker Verification
+### Benefits
 
-To simplify onboarding and improve accessibility:
+- Easy onboarding  
+- Familiar interface  
+- Continuous engagement  
+- Additional signals for fraud detection  
 
-Flow:
+---
 
-Worker registers on StillPaid
+## 🛡️ Adversarial Defense & Anti-Spoofing Strategy
 
-Connects WhatsApp account
+StillPaid is designed to handle large-scale fraud scenarios such as GPS spoofing.
 
-Chatbot collects:
+### Key Strategies
 
-Delivery platform
+- External event validation using trusted APIs  
+- Behavioral pattern analysis for anomaly detection  
+- Location consistency checks  
+- Time-based validation  
+- Community anomaly detection  
 
-Working hours
+### Fraud Response
 
-Location
+- Suspicious claims are flagged, not instantly rejected  
+- Risk scoring applied per user  
+- High-risk users monitored more strictly  
 
-Profile is verified before activation
+This ensures fairness while preventing system abuse.
 
-Benefits:
+---
 
-Easy onboarding
+## 🧠 AI Integration
 
-Familiar interface
+### Risk Prediction
+- Estimates disruption probability  
+- Adjusts weekly premiums  
 
-Continuous engagement
+### Fraud Detection
+- Detects abnormal claim patterns  
+- Prevents duplicate claims  
 
-Additional behavioral signals for fraud detection
+---
 
-🛡️ Adversarial Defense & Anti-Spoofing Strategy
+## 🚀 Unique Features
 
-StillPaid is designed to withstand large-scale fraud scenarios such as GPS spoofing attacks.
+- Adaptive Parametric Payout  
+- Pre-Disruption Protection  
+- Community Risk Pooling  
+- WhatsApp-based onboarding  
+- Adversarial fraud resilience  
 
-🔍 Key Strategy
-1. External Event Validation
+---
 
-Uses trusted APIs instead of user claims
+## 📊 Analytics Dashboard
 
-2. Behavioral Pattern Analysis
+### Worker View
+- Active coverage  
+- Disruption alerts  
+- Claim history  
 
-Detects abnormal claim spikes
+### Admin View
+- Risk insights  
+- Claim analytics  
+- Fraud alerts  
 
-Identifies synchronized activity
+---
 
-3. Location Consistency Checks
+## 🛠️ Development Roadmap
 
-Validates historical vs current zones
+### Phase 1 — Ideation
+- Problem analysis  
+- System design  
+- AI planning  
 
-4. Time Validation
+### Phase 2 — Core System
+- Worker onboarding  
+- Policy management  
+- Automated claims  
 
-Matches claims with working hours
+### Phase 3 — Advanced Features
+- Fraud detection  
+- Payout simulation  
+- Analytics dashboard  
 
-5. Community Anomaly Detection
+---
 
-Detects coordinated fraud rings
+## 🔮 Future Scope
 
-🚨 Fraud Response
+- Platform integration (Swiggy/Zomato)  
+- Hyper-local risk modeling  
+- Dynamic policy customization  
 
-Suspicious claims are flagged, not blocked instantly
+---
 
-Risk scoring applied per user
+## 📁 Repository Structure
 
-High-risk users monitored more strictly
-
-👉 Ensures genuine users are not penalized.
-
-🧠 AI Integration
-1️⃣ Risk Prediction
-
-Estimates disruption probability
-
-Adjusts weekly premiums
-
-2️⃣ Fraud Detection
-
-Identifies abnormal claim patterns
-
-Prevents duplicate or suspicious claims
-
-🚀 Unique Features (USP)
-
-🔹 Adaptive Parametric Payout
-
-🔹 Pre-Disruption Protection
-
-🔹 Community Risk Pooling
-
-🔹 WhatsApp-based onboarding
-
-🔹 Adversarial fraud resilience
-
-📊 Analytics Dashboard
-👤 Worker View
-
-Active coverage
-
-Disruption alerts
-
-Claim history
-
-🏢 Admin View
-
-Risk insights
-
-Claim analytics
-
-Fraud alerts
-
-🛠️ Development Roadmap
-Phase 1 — Ideation
-
-Problem analysis
-
-System design
-
-AI planning
-
-Phase 2 — Core System
-
-Worker onboarding
-
-Policy management
-
-Automated claims
-
-Phase 3 — Advanced Features
-
-Fraud detection
-
-Payout simulation
-
-Analytics dashboard
-
-🔮 Future Scope
-
-Platform integration (Swiggy/Zomato)
-
-Hyper-local risk modeling
-
-Dynamic policy customization
-
-📁 Repository Structure
+```bash
 ai-gig-insurance/
 │
 ├── admin_dashboard/
@@ -264,7 +248,7 @@ ai-gig-insurance/
 
 🎥 Demo Video
 
-👉 [Add your Phase-1 video link here]
+👉 https://youtu.be/N2h9UqoC-08?si=k-VgobSz1OQqhjgy
 
 👥 Team Crashers
 
