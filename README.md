@@ -245,9 +245,15 @@ ai-gig-insurance/
 ├── .env.example
 ├── README.md
 ```
-🎥 Demo Video
+🎥 Demo Video phase 1
 
 👉 [Watch Demo Video](https://youtu.be/N2h9UqoC-08?si=k-VgobSz1OQqhjgy)
+
+
+🎥 Demo Video phase 2
+
+👉 [Watch Demo Video](https://youtu.be/HSRKCnsDB_A?si=gJp_BRcH9_Z7zY91)
+
 
 👥 Team Crashers
 
