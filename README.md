@@ -233,17 +233,20 @@ This ensures fairness while preventing system abuse.
 
 ## 📁 Repository Structure
 
-```bash
-ai-gig-insurance/
+```text
+stillpaid-insurance/
 │
-├── admin_dashboard/
-├── ai_models/
-├── backend/
-├── mobile_app/
-├── triggers/
+├── src/                    # Main application code
+│   ├── admin/              # Admin Dashboard components & views
+│   ├── auth/               # Login & authentication views
+│   ├── services/           # External API integrations (Weather, AQI)
+│   ├── worker/             # Worker Portal (Registration, Claims)
+│   ├── App.jsx             # Main React Router configuration
+│   └── store.js            # Simulated LocalStorage backend
 │
-├── .env.example
-├── README.md
+├── .env                    # Environment variables (API keys)
+├── package.json            # Project dependencies
+└── README.md               # Project documentation
 ```
 🎥 Demo Video phase 1
 
